@@ -4,12 +4,12 @@ Have added the feature of computing the distance between point 1 and centroid 1 
 
 # Week 4 Assignment 1
 Changes to be made include:
-Being able to compute the distance between point 1 and centroid 2. **(Don't touch R7 its for printing)**
+Being able to compute the distance between point 1 and centroid 2. - DONE **(Don't touch R7 its for printing)**
 
 
-Comparing which distance is larger.🚧
-classify point 1 to either CLASS 1 or 2.🚧
-
+Comparing which distance is larger.🚧 - DONE
+classify point 1 to either CLASS 1 or 2.🚧 - DONE
+NOW WE HAVE TO MAKE IT DO IT IN A LOOP!
 
 - **Date:** `9/09/2021`
 - **Sprint manager:** Rach/Seth😛
