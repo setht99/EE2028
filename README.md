@@ -7,9 +7,9 @@ Changes to be made include:
 Being able to compute the distance between point 1 and centroid 2. - DONE **(Don't touch R7 its for printing)**
 
 
-Comparing which distance is larger.🚧 - DONE
-classify point 1 to either CLASS 1 or 2.🚧 - DONE
-NOW WE HAVE TO MAKE IT DO IT IN A LOOP!
+~~Comparing which distance is larger.🚧 - DONE<br/>
+classify point 1 to either CLASS 1 or 2.🚧 - DONE<br/>~~     
+**NOW WE HAVE TO DO ALL THESE IN A LOOP!**
 
 - **Date:** `9/09/2021`
 - **Sprint manager:** Rach/Seth😛
