@@ -12,7 +12,7 @@ classify point 1 to either CLASS 1 or 2.🚧
 
 
 - **Date:** `9/09/2021`
-- **Sprint manager:** Rach
+- **Sprint manager:** Rach/Seth😛
 - **Related project:** EE2028 Main
 
 ## Sprint timeline and tasks
