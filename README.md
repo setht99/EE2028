@@ -4,7 +4,7 @@ Have added the feature of computing the distance between point 1 and centroid 1 
 
 # Week 4 Assignment 1
 Changes to be made include:
-Being able to compute the distance between point 1 and centroid 2.
+Being able to compute the distance between point 1 and centroid 2. ( Don't touch R7 its for printing)
 
 
 Comparing which distance is larger.🚧
