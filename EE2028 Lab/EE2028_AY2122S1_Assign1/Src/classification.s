@@ -77,12 +77,12 @@ classification:
 
 SUBROUTINE:
 // 1st centroid
-	LDR R5,[R0] @Load content of R0 to R5.
-	LDR R6,[R1]
+	//LDR R5,[R0] @Load content of R0 to R5.
+	//LDR R6,[R1]
 	SUB R8,R5,R6  @ (R5 - R6) goes to R8
 	MUL R8,R8 @Squaring x coordinate
-	LDR R5,[R0,#4]! @ R0 jump to next 4 bytes, then load the content to R5
-	LDR R6,[R1,#4]! @ R1 jump to next 4 bytes, then load the content to R6
+	LDR R5,[R0,#4]! @ y-coordinate of point 1
+	LDR R6,[R1,#4]! @ y-coordinate of centroid 1
 	SUB R9,R5,R6 @ (R5 - R6) goes to R9
 	MUL R9,R9 @squaring y coordinate
 	ADD R10,R8,R9 @adding x^2 and y^2 coordinate
@@ -105,6 +105,8 @@ SUBROUTINE:
 	ITE LT
 	STRLT R5,[R2],#4
 	STRGE R6,[R2],#4
+	LDR R5,[R0,#4]! @GOTO NEXT POINT X COORDINATE
+	LDR R6,[R1,#-12]! @GOTO X COORDINATE OF CENTROID 1
 	SUBS R12,#1
 	BNE SUBROUTINE
 	BX LR
