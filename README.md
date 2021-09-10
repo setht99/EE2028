@@ -8,7 +8,8 @@ Being able to compute the distance between point 1 and centroid 2. - DONE **(Don
 
 
 ~~Comparing which distance is larger.🚧 - DONE<br/>
-classify point 1 to either CLASS 1 or 2.🚧 - DONE<br/>~~     
+classify point 1 to either CLASS 1 or 2.🚧 - DONE<br/>~~  
+Add C object from define to memory
 **NOW WE HAVE TO DO ALL THESE IN A LOOP!**
 
 - **Date:** `9/09/2021`
