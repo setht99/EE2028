@@ -25,7 +25,7 @@
 @ r1 (centroids10) start from 0x20017ee8.
 @ r2 (class) start from 0x20017ec8.
 @ first have to load the content of register [R0] and [R1],
-@ then
+@ SP = 0x20017eb0
 @ write your program from here:
 /*PRESERVE8
 AREA globals,CODE
@@ -44,8 +44,7 @@ classification:
 
 SUBROUTINE:
 // 1st centroid
-	//LDR R5,[R0] @Load content of R0 to R5.
-	//LDR R6,[R1]
+
 	SUB R8,R5,R6  @ (R5 - R6) goes to R8
 	MUL R8,R8 @Squaring x coordinate
 	LDR R5,[R0,#4]! @ y-coordinate of point 1
