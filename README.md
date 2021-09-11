@@ -23,9 +23,9 @@ Changes to be made include:
 
 ## Action items
 - Seth
-  - Write the distance comparator - **DONE**
+  - everything is done
 - Rach
-  - Create the algorithm
+  - ~~Create the algorithm~~
 
 ## What can we improve?
 - 
