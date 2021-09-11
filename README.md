@@ -25,7 +25,7 @@ classify point 1 to either CLASS 1 or 2.🚧 - DONE<br/>~~Add C object from defi
 
 ## Action items
 - Seth
-  - Write the distance comparator
+  - Write the distance comparator - **DONE**
 - Rach
   - Create the algorithm
 
