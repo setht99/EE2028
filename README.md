@@ -6,7 +6,7 @@ Have added the feature of computing the distance between point 1 and centroid 1 
 Changes to be made include:
 **(Don't touch R7 its for printing)</br>**
 
-**Work on new centroid function</br>**
+**improve on the code</br>**
 
 
 
