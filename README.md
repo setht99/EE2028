@@ -3,10 +3,10 @@ A school project for STM32L475 Microprocessor.
 Have added the feature of computing the distance between point 1 and centroid 1 ONLY. 
 
 # Week 4 Assignment 1
-Changes to be made include:
-**(Don't touch R7 its for printing)</br>**
+Changes to be made include: **(Don't touch R7 its for printing)</br>**
 
 **IMPROVE ON THE CODE</br>**
+**DO THE REPORT</br>**
 
 
 
