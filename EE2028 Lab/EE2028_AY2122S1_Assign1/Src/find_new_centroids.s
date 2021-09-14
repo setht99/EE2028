@@ -47,9 +47,9 @@ MAIN1:
 	B CENTROID1COORDINATES
 CENTROID1:
 	LDR R5,[R0],#4 @R5 = X COORDINATE OF POINT 1
-	ADD R9,R9,R5
+	ADD R9,R9,R5 @R9 = Stored value of X coords (added) for class 1
 	LDR R5,[R0],#4 @Y COORDINATE OF POINT 1
-	ADD R10,R10,R5
+	ADD R10,R10,R5 @R10 = Stored value of Y coords (added) for class 1
 	ADD R4,#1 @CLASS COUNTER +1
 	SUB R8,#1 @COUNTER M -1
 	LDR R6,[R2,#4]!
@@ -58,9 +58,9 @@ CENTROID1:
 
 CENTROID1COORDINATES:
 	LDR R8,[R3]
-	SDIV R9,R9,R4
+	SDIV R9,R9,R4 @Finding the average of X-coordinates of class 1
 	STR R9,[R3],#4
-	SDIV R10,R10,R4
+	SDIV R10,R10,R4  @Finding the average of Y-coordinates of class 1
 	STR R10,[R3],#4
 	MOV R9,#0 @ RESET X-COORDINATE ADDER
 	MOV R10,#0 @ RESET Y-COORDINATE ADDER
